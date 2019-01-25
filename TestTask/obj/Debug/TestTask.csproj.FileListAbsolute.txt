@@ -160,7 +160,8 @@ D:\TestTask\TestTask\bin\Antlr3.Runtime.pdb
 D:\TestTask\TestTask\bin\System.Diagnostics.DiagnosticSource.xml
 D:\TestTask\TestTask\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\TestTask\TestTask\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\TestTask\TestTask\obj\Debug\TestTask.csprojAssemblyReference.cache
+D:\TestTask\TestTask\obj\Debug\TestTask.Migrations.adduserstable.resources
+D:\TestTask\TestTask\obj\Debug\TestTask.csproj.GenerateResource.cache
 D:\TestTask\TestTask\obj\Debug\TestTask.csproj.CoreCompileInputs.cache
 D:\TestTask\TestTask\obj\Debug\TestTask.csproj.CopyComplete
 D:\TestTask\TestTask\obj\Debug\TestTask.dll

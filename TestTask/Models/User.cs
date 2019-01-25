@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 using TestTask.Helpers;
@@ -18,14 +19,16 @@ namespace TestTask.Models
     public class User
     {
         [Required]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         [Required]
         public string Name { get; set; }
 
         [Required]
+        [Index(IsUnique = true)]
         public string Email { get; set; }
 
+        [Index(IsUnique = true)]
         public string SkypeLogin { get; set; }
 
         public string Signature { get; set; }

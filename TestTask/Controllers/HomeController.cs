@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TestTask.Helpers;
 using TestTask.Models;
 
 namespace TestTask.Controllers
 {
     public class HomeController : Controller
     {
-        UserContext db = new UserContext();
+        private readonly UserContext db = new UserContext();
 
         public ActionResult Index()
         {
-            IEnumerable<User> users = db.Users;
+            IEnumerable<User> users = this.db.Users;
             ViewBag.Users = users;
-            return View();
+            return this.View();
         }
     }
 }
