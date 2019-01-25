@@ -1,1 +1,5 @@
-<StyleCopViolations />
+<StyleCopViolations>
+  <Violation Section="Root.TestTask.Controllers.HomeController.db" LineNumber="12" Source="D:\TestTask\TestTask\Controllers\HomeController.cs" RuleNamespace="StyleCop.CSharp.MaintainabilityRules" Rule="AccessModifierMustBeDeclared" RuleId="SA1400">The field must have an access modifier.</Violation>
+  <Violation Section="Root.TestTask.Controllers.HomeController.Index" LineNumber="16" StartLine="16" StartColumn="39" EndLine="16" EndColumn="40" Source="D:\TestTask\TestTask\Controllers\HomeController.cs" RuleNamespace="StyleCop.CSharp.ReadabilityRules" Rule="PrefixCallsCorrectly" RuleId="SA1126">The call to db must begin with the 'this.', 'base.', 'object.' or 'HomeController.' or 'Controller.' prefix to indicate the intended method call. </Violation>
+  <Violation Section="Root.TestTask.Controllers.HomeController.Index" LineNumber="18" StartLine="18" StartColumn="20" EndLine="18" EndColumn="23" Source="D:\TestTask\TestTask\Controllers\HomeController.cs" RuleNamespace="StyleCop.CSharp.ReadabilityRules" Rule="PrefixCallsCorrectly" RuleId="SA1126">The call to View must begin with the 'this.', 'base.', 'object.' or 'HomeController.' or 'Controller.' prefix to indicate the intended method call. </Violation>
+</StyleCopViolations>

@@ -1,6 +1,11 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+
+@foreach (var user in ViewBag.Users)
+{
+    <div>@user.Name</div>
+}
 <div id="app">
     {{ message }}
 </div>
