@@ -1,0 +1,9 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "vue": "^2.5.22"
+  }
+}
