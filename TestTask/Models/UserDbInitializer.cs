@@ -10,7 +10,7 @@ namespace TestTask.Models
     {
         protected override void Seed(UserContext db)
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 100; i++)
             {
                 var user = new User()
                 {
